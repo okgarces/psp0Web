@@ -1,0 +1,71 @@
+﻿C:\Development\ECOS\PSP0>mvn package
+[INFO] Scanning for projects...
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building PSP0 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ PSP0 ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources,
+i.e. build is platform dependent!
+[INFO] Copying 1 resource
+[INFO]
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ PSP0 ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. b
+uild is platform dependent!
+[INFO] Compiling 3 source files to C:\Development\ECOS\PSP0\target\classes
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ PS
+P0 ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources,
+i.e. build is platform dependent!
+[INFO] Copying 1 resource
+[INFO]
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ PSP0 --
+-
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. b
+uild is platform dependent!
+[INFO] Compiling 3 source files to C:\Development\ECOS\PSP0\target\test-classes
+[INFO]
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ PSP0 ---
+[INFO] Surefire report directory: C:\Development\ECOS\PSP0\target\surefire-repor
+ts
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running edu.uniandes.ecos.psp0.AppTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 sec
+Running edu.uniandes.ecos.psp0.FileInputTest
+El archivo DoesNotExist.txt no existe
+Added number: 15.0
+Added number: 69.9
+Added number: 6.5
+Added number: 22.4
+Added number: 28.4
+Added number: 65.9
+Added number: 19.4
+Added number: 198.7
+Added number: 38.8
+Added number: 138.2
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 sec
+Running edu.uniandes.ecos.psp0.StatisticCalculatorTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+
+Results :
+
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO]
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ PSP0 ---
+[INFO] Building jar: C:\Development\ECOS\PSP0\target\PSP0-1.0-SNAPSHOT.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 8.381 s
+[INFO] Finished at: 2015-01-28T15:10:58-05:00
+[INFO] Final Memory: 17M/178M
+[INFO] ------------------------------------------------------------------------
+C:\Development\ECOS\PSP0>
