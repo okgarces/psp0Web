@@ -11,6 +11,9 @@ import java.util.LinkedList;
  */
 public class StatisticCalculator {
 
+	/**
+	 * The data provided to calculate values
+	 */
 	private LinkedList<Double> inputData;
 	
 	/**
