@@ -1,5 +1,7 @@
 package edu.uniandes.ecos.psp0.controller;
 
+
+
 import java.io.IOException;
 import javax.servlet.ServletException;
 import javax.servlet.http.*;
@@ -63,8 +65,7 @@ public class App extends HttpServlet{
         //System.out.println("Por favor, ingrese la cantidad de numeros que desea ingresar:");
         //Scanner input = new Scanner(System.in);
         String calc = req.getParameter("calc");
-        System.out.println("PARAMETERS: "+ req.getParameterMap());
-        System.out.println("Calculo de mierda: "+calc);
+
         String[] strElements = calc.split(" ");
         Double nextElement = 0D;
         LinkedList<Double> numbersList = new LinkedList<Double>();
