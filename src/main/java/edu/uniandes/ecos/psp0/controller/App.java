@@ -24,7 +24,7 @@ import java.util.logging.Logger;
 public class App extends HttpServlet{
 
     public static void main(String[] args) {
-        Server server = new Server(80);
+        Server server = new Server(Integer.getInteger(System.getenv("PORT")));
         ServletContextHandler context = new ServletContextHandler(ServletContextHandler.SESSIONS);
         context.setContextPath("/");
         server.setHandler(context);
