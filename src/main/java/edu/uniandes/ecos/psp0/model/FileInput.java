@@ -1,4 +1,4 @@
-package edu.uniandes.ecos.psp0;
+package edu.uniandes.ecos.psp0.model;
 
 import java.io.BufferedReader;
 import java.io.File;

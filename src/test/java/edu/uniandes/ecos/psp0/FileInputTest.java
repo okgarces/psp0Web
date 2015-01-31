@@ -1,5 +1,6 @@
 package edu.uniandes.ecos.psp0;
 
+import edu.uniandes.ecos.psp0.model.FileInput;
 import java.util.LinkedList;
 
 import junit.framework.Test;
@@ -51,6 +52,7 @@ public class FileInputTest extends TestCase {
     	
     	//Test: Existing file
     	ClassLoader classLoader = this.getClass().getClassLoader();
+        System.out.println("Erdaaa aquí vaaa"+classLoader.getResource("test.txt"));
     	assertTrue(inputTest.getFile(classLoader.getResource("test.txt").getFile()));
     }
     

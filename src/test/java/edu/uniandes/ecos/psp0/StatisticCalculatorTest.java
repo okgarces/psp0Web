@@ -1,5 +1,6 @@
 package edu.uniandes.ecos.psp0;
 
+import edu.uniandes.ecos.psp0.model.StatisticCalculator;
 import java.util.LinkedList;
 
 import junit.framework.Test;
